@@ -298,3 +298,10 @@ a:hover { color: var(--primary-dark); }
     justify-self: center;  /* centraliza dentro da coluna esquerda */
   }
 }
+
+
+.botao-container {
+    display: flex;
+    gap: 1rem; /* Espaço entre botões */
+    margin-top: 2rem; /* Espaço acima */
+}
