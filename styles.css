@@ -8,10 +8,10 @@ img { max-width: 100%; display: block; }
   --bg: #000000;                /* Fundo geral preto */
   --text: #f2f2f2;              /* Texto principal claro */
   --muted: #c8b9c8;             /* Texto secundário */
-  --primary: #e56b8a;           /* Rosa principal */
-  --primary-dark: #c44f6c;      /* Rosa mais escuro (hover) */
+  --primary: #e5dd6b;           /* Rosa principal */
+  --primary-dark: #c4bc4f;      /* Rosa mais escuro (hover) */
   --primary-color: var(--primary); /* Alias p/ compatibilidade */
-  --accent: #f89fb6;
+  --accent: #f8f79f;
   --panel: #141217;             /* Painéis/cartões em tom escuro */
   --border: #2a232a;            /* Bordas discretas no dark */
   --shadow: 0 6px 24px rgba(229,107,138,0.2);
@@ -113,7 +113,7 @@ a:hover { color: var(--primary-dark); }
 .mockup { border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.45); }
 
 /* SEÇÕES */
-.section { padding: 5rem 1rem; }
+.section { padding: 2rem 1rem; }
 /* A antiga seção clara vira um tom mais escuro */
 .section.alt { background: #0e0c10; }
 .section h2 { color: #ffd1dc; text-align: center; margin-bottom: 1rem; }
